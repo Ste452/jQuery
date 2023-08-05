@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./vendor/owl/css/owl.css">
+    <link rel="stylesheet" href="./vendor/fontawesome/fontawesome.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./vendor/jquery-ui/jquery-ui.min.css">
+    <title>WebStore - Loja especializada</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="assets/images/header-logo.png" alt=""></a>
+            <button type="button" class="btn btn-primary" data-bs-toggle="button" aria-pressed="false" autocomplete="off">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class=" nav-link" href="index.html" rel="home">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <nav class="nav col-4">
+                        <a class=" nav-link" href="products.html" rel="produtos">Produtos</a>
+                    </nav>
+                    <nav class="nav col-4">
+                        <a class=" nav-link nav-modal-open" href="about.html" rel="sobre">Sobre nós</a>
+                    </nav>
+                    <nav class="nav col-4">
+                        <a class=" nav-link nav-modal-open" href="./cadastro.html" rel="contato">Contato</a>
+                    </nav>
+               
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="caption">
+                        <h2>Ecommerce HTML Template</h2>
+                        <div class="line-dec"></div>
+                        <p>HTML Template can be converted into your desired CMS theme. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="featured" class="featured-items">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <div class="line-dec"></div>
+                        <h1>Produtos</h1>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="featured-item">
+                            <img src="assets/images/item-01.jpg" alt="Item 1">
+                            <h4>Produto 1</h4>
+                            <h6>R$ 20,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="assets/images/item-02.jpg" alt="Item 2">
+                            <h4>Produto 2</h4>
+                            <h6>R$ 20,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="assets/images/item-03.jpg" alt="Item 3">
+                            <h4>Produto 3</h4>
+                            <h6>R$ 20,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="assets/images/item-04.jpg" alt="Item 4">
+                            <h4>Produto 4</h4>
+                            <h6>R$ 20,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="assets/images/item-05.jpg" alt="Item 5">
+                            <h4>Produto 5</h4>
+                            <h6>R$ 20,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="assets/images/item-06.jpg" alt="Item 6">
+                            <h4>Produto 6</h4>
+                            <h6>R$ 20,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="assets/images/item-04.jpg" alt="Item 7">
+                            <h4>Produto 7</h4>
+                            <h6>R$ 20,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="assets/images/item-05.jpg" alt="Item 8">
+                            <h4>Produto 8</h4>
+                            <h6>R$ 20,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="assets/images/item-06.jpg" alt="Item 9">
+                            <h4>Produto 9</h4>
+                            <h6>R$ 20,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="subscribe-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <div class="line-dec" id="erro">
+                            <h1 id="erro-h1">Receba novidades</h1>
+                        </div>
+                    </div>
+                    <div class="col-md-8 offset-md-2">
+                        <div class="main-content">
+                            <p>Insira seus dados abaixo para receber informações atualizadas de nossos produtos</p>
+                            <div class="container">
+                                <form id="subscribe" class="form" action="" method="get">
+                                    <div class="row">
+                                        <div class="col-md-7">
+                                            <fieldset>
+                                                <input name="email" type="text" class="form-control" id="email" placeholder="Seu e-mail...">
+                                            </fieldset>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <fieldset>
+                                                <button type="submit" class="button" id="form-submit">Inscreva-se</button>
+                                            </fieldset>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="logo">
+                        <img src="assets/images/header-logo.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Help</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">How It Works ?</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="social-icons">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="sub-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copyright-text">
+                        <p>WebStore &copy; Todos os direitos reservados</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal Body -->
+    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+    <div class="modal fade" id="modalId" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitleId">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="contato" class="visually-hidden">
+        
+        <form action="" class="form">
+            
+            <div class="mb-3">
+                <small id="helpNome" class="text-muted">Digite um nome válido</small>
+                <label for="nome" id="Nome" class="form-label">Nome</label>
+                <input type="text" name="nome" id="nome" class="form-control" placeholder="Digite seu nome"  required>
+                <small id="helpEmail" class="text-muted">Digite um e-mail válido</small>
+                <label for="email" id="Email" class="form-label">Email</label>
+                <input type="text" name="email" id="email" class="form-control" placeholder="Digite seu e-mail" aria-describedby="helpEmail">
+                <small id="helpData" class="text-muted">Digite uma data válida</small>
+                <label for="data" id="Data" class="form-label">Data</label>
+                <input type="text" name="data" id="date" class="form-control" placeholder="Digite a data" aria-describedby="helpData">
+                <small id="helpHora" class="text-muted">Digite um tempo válido</small>
+                <label for="hora" id="Hora" class="form-label">Hora</label>
+                <input type="text" name="hora" id="time" class="form-control" placeholder="Digite a hora" aria-describedby="helpHora">
+                <small id="helpCEP" class="text-muted">Digite um cep válido</small>
+                <label for="cep" id="CEP" class="form-label">CEP</label>
+                <input type="text" name="cep" id="cep" class="form-control" placeholder="Digite o cep" aria-describedby="helpCEP">
+                <small id="helpPhone" class="text-muted">Digite um celular válido</small>
+                <label for="phone" id="Telefone" class="form-label">Telefone</label>
+                <input type="text" name="phone" id="phone" class="form-control" placeholder="Digite seu número" aria-describedby="helpPhone">
+                <small id="helpCPF" class="text-muted">Digite um cpf válido</small>
+                <label for="cpf" id="CPF" class="form-label">CPF</label>
+                <input type="text" name="cpf" id="cpf" class="form-control" placeholder="Digite seu cpf" aria-describedby="helpCPF">
+                
+                
+                <button type="submit" class="btn btn-success" id="new-button">Receber novidades</button>
+            </div>
+            
+        </form>
+        
+    </div>
+    
+    <div id="sobre" class="visually-hidden">
+        
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisi enim, blandit quis mi non, tincidunt condimentum diam. Etiam interdum, magna sit amet bibendum luctus, augue lacus laoreet odio, eu congue libero nibh id enim. In tristique congue pharetra. In ac neque luctus, molestie quam ac, lobortis ex. Vestibulum vitae purus eget risus cursus suscipit. In mollis rutrum lacus, a convallis quam ornare at. Pellentesque porttitor suscipit aliquam. Maecenas finibus blandit maximus. Cras nec tellus sodales, lacinia arcu in, egestas tortor. Proin convallis felis nec bibendum gravida. Praesent vel justo et eros iaculis feugiat. Sed hendrerit sem ut ultricies elementum. Fusce id efficitur neque, vel luctus mauris. </p>
+        
+    </div>
+    
+    <!-- Bibliotecas -->
+    <script src="./vendor/JQuery/jquery-3.7.0.min.js"></script>
+    <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./vendor/owl/js/owl.js"></script>
+    <script src="./vendor/JQuery-mask/jquery.mask.min.js"></script>
+    <script src="./vendor/jquery-ui/jquery-ui.min.js"></script>
+    
+    <!-- Script customizado-->
+    <script src="./js/custom.js"></script>
+</body>
+</html>
